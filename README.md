@@ -58,3 +58,37 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application for man
 - Backend: Node.js, Express, MongoDB, Mongoose
 - Frontend: React, Chakra UI, Zustand, Vite
 - Dev Tools: Nodemon, ESLint
+
+## Folder Structure
+```bash
+mern-product-store/
+├── .gitignore
+├── package.json
+├── README.md
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── product.controllers.js
+│   ├── models/
+│   │   └── product.model.js
+│   └── routes/
+│       └── product.route.js
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── public/
+│   │   └── vite.svg
+│   └── src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── components/
+│       │   ├── NavBar.jsx
+│       │   └── ProductCard.jsx
+│       ├── pages/
+│       │   ├── CreatePage.jsx
+│       │   └── HomePage.jsx
+│       └── store/
+│           └── product.js
