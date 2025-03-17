@@ -1,5 +1,3 @@
-Crash Course - MERN Stack Application
-
 # Crash Course - MERN Stack Application
 
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application for managing products. It includes a backend API built with Express and MongoDB, and a frontend built with React and Vite.
