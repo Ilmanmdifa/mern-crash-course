@@ -28,14 +28,17 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application for man
    cd crash-crash-course
 
 2. Install backend dependencies
+   ```bash 
    npm install
 
 3. Install frontend dependencies:
+   ```bash
    cd frontend
    npm install
    cd ..
 
 4. Create a .env file in the root directory and add the following:
+   ```bash
    MONGO_URI=your_mongodb_connection_string
    PORT=5000
 
@@ -43,15 +46,17 @@ This is a full-stack MERN (MongoDB, Express, React, Node.js) application for man
 --Development
 
 1. Start the backend server:
+   ```bash
    npm run dev
 
-2. Start the frontend development server:
+3. Start the frontend development server:
+   ```bash
    cd frontend
    npm run dev
    
-4. Open your browser and navigate to http://localhost:5173.
+5. Open your browser and navigate to http://localhost:5173.
 
 ## Technology Used
-Backend: Node.js, Express, MongoDB, Mongoose
-Frontend: React, Chakra UI, Zustand, Vite
-Dev Tools: Nodemon, ESLint
+- Backend: Node.js, Express, MongoDB, Mongoose
+- Frontend: React, Chakra UI, Zustand, Vite
+- Dev Tools: Nodemon, ESLint
