@@ -2,6 +2,10 @@
 
 This is a full-stack MERN (MongoDB, Express, React, Node.js) application for managing products. It includes a backend API built with Express and MongoDB, and a frontend built with React and Vite.
 
+## Demo
+
+To see the app in action, follow the [Installation](#installation) steps to run it locally on your machine.
+
 ## Features
 
 - **Backend**:
